@@ -1,4 +1,4 @@
-# Kubernetes Ingress with Nginx
+# Kubernetes Ingress controller with Nginx
 
 ## Install Nginx
 
@@ -14,7 +14,7 @@ https://kubernetes.github.io/ingress-nginx/
 ## Create second application
 <code>kubectl apply -f app2.yaml -f app2-service.yaml</code>
 
-## Create ingress 
+## Create ingress controller
 <code>kubectl apply -f ingress.yaml</code>
 
 ## Test applications
